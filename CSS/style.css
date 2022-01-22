@@ -1,0 +1,269 @@
+html {
+    scroll-behavior: smooth;
+  }
+body,html{
+    background: linear-gradient(rgb(255, 255, 255),rgb(216, 216, 216), rgb(199, 199, 199));
+    background-repeat: no-repeat;
+    height: 100%;
+ 
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px ;
+    font-weight: bolder;
+    text-shadow: 0 10px 15px rgb(179, 179, 179);
+    
+}
+.cont1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0%; 
+}
+
+/* HERE IS CARD0 */
+.card0{
+    height: 350px;
+    width: 250px;
+    background: #808080;
+    border-radius: 20px;
+    transition: 0.8s;
+    box-shadow: 0 70px 63px -60px #000;
+    position: relative;
+    margin: 10px;
+
+}
+
+.card0{
+    background: url(/Images/00100sPORTRAIT_00100_BURST20211218211812909_COVER.jpg); 
+    background-size: 350px;
+    
+}
+.card0:hover{
+    background:url(/Images/00100sPORTRAIT_00100_BURST20211218211812909_COVER.jpg) center left no-repeat;
+    background-size: 400px;
+    opacity:0.7;
+    
+      
+}
+
+.card0:hover h2,h3,.text1{
+    opacity: 1;
+}
+ h2{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #fff;
+     opacity: 0;
+     transition: 1s;
+     text-align: left;
+     font-size: 18px;
+     padding-left: 10px;
+    
+     
+}
+
+.card0:hover .text{
+    opacity: 1;
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+    text-align: left;
+     font-size: 18px;
+     padding: 10px;
+     font-weight:bold;
+}
+/* HERE IS CARD 1*/
+.card1{
+    height: 350px;
+    width: 250px;
+    background: #808080;
+    border-radius: 20px;
+    transition: 0.8s;
+    box-shadow: 0 70px 63px -60px #000;
+    position: relative;
+    margin: 10px;
+}
+
+.card1{
+    background: url(/Images/RHMIMG_20211218_202606.jpg); 
+    background-size: 350px;
+    
+}
+.card1:hover{
+    background:url(/Images/RHMIMG_20211218_202606.jpg) center left no-repeat;
+    background-size: 400px;
+    opacity:0.7;
+    
+}
+
+.card1:hover h2{
+    opacity: 1;
+}
+ h2{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #fff;
+     opacity: 0;
+     transition: 1s;
+     text-align: left;
+     font-size: 18px;
+     padding-left: 10px;
+
+}
+
+.card1:hover .text1{
+    opacity: 1;
+}
+
+.text1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+    text-align: left;
+     font-size: 18px;
+     padding: 10px;
+     font-weight:bold;
+}
+ 
+
+/* HERE IS CARD 2*/
+
+.card2{
+    height: 350px;
+    width: 250px;
+    background: #808080;
+    border-radius: 20px;
+    transition: 0.8s;
+    box-shadow: 0 70px 63px -60px #000;
+    position: relative;
+    margin: 10px;
+    
+    
+}
+
+.card2{
+    background: url(/Images/ZINOUPORTRAIT_00000_BURST20211218202727446.jpg); 
+    background-size: 350px;
+    
+}
+.card2:hover{
+    background:url(/Images/ZINOUPORTRAIT_00000_BURST20211218202727446.jpg) center left no-repeat;
+    background-size: 400px;
+    opacity:0.7;
+    
+      
+}
+
+.card2:hover h2{
+    opacity: 1;
+}
+ h2{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #fff;
+     opacity: 0;
+     transition: 1s;
+     text-align: left;
+     font-size: 18px;
+     padding-left: 10px;
+    
+     
+}
+
+.card2:hover .text2{
+    opacity: 1;
+}
+
+.text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+    text-align: left;
+     font-size: 18px;
+     padding: 10px;
+     font-weight:bold;
+}
+
+/* HERE IS CARD 3*/
+.card3{
+    height: 350px;
+    width: 250px;
+    background: #808080;
+    border-radius: 20px;
+    transition: 0.8s;
+    box-shadow: 0 70px 63px -60px #000;
+    position: relative;
+    margin: 10px;
+    
+    
+}
+
+.card3{
+    background: url(/Images/Sofiane00100sPORTRAIT_00100_BURST20211218202656688_COVER.jpg); 
+    background-size: 350px;
+    
+}
+.card3:hover{
+    background:url(/Images/Sofiane00100sPORTRAIT_00100_BURST20211218202656688_COVER.jpg) center left no-repeat;
+    background-size: 400px;
+    opacity:0.7;
+    
+      
+}
+
+.card3:hover h2{
+    opacity: 1;
+}
+ h2{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #fff;
+     opacity: 0;
+     transition: 1s;
+     text-align: left;
+     font-size: 18px;
+     padding-left: 10px;
+    
+     
+}
+
+.card3:hover .text3{
+    opacity: 1;
+}
+
+.text3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+    text-align: left;
+     font-size: 18px;
+     padding: 10px;
+     font-weight:bold;
+}
+/* FOOTER */ 
+footer{
+    background-color: #111;
+    height: 80px;
+    margin-top: 180px;
+}
+.contfooter{
+    font-family:'Nunito', sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+    
